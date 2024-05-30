@@ -2,6 +2,12 @@
 <html lang="en">
     <head>
         <title>Portfolio</title>
+        <link
+            rel="icon"
+            href=
+                "img/iconn.jpg"
+            type="image/x-icon"
+        />
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta
@@ -17,14 +23,16 @@
             crossorigin="anonymous"
         />
         <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     </head>
 
     <body>
         <header>
             <!-- place navbar here -->
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark pl-3">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary pl-3">
                 
-                <a class="navbar-brand" href="#"><b>My<span class="text-warning">Portfolio</span> </b></a>
+                <a class="navbar-brand" href="#"><b>My<span class="text-white">Portfolio</span> </b></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -34,7 +42,10 @@
                       <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#about">About</a>
+                        <a class="nav-link" href="#about">About</a>
+                      </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#project">Projects</a>
                     </li>
                     <li class="nav-item pr-5">
                       <a class="nav-link" href="#contact">Contact</a>
@@ -52,34 +63,145 @@
                 <!--HOME-->
                 <section id="home" class="section"><br>
                     <div class="section-header">
+                      <!--<h2>My Portfolio</h2>-->  
+                      <h1>
+                        Hello! I am <span>  <b>REYLOU RENCE N. MAQUI</b> </span> 
+                    </h1>
+                        <img src="img/img1.jpg" alt="Image" srcset="" class="rounded-circle shadow-lg p-1 mb-1 bg-primary rounded">  
+                        <p>
+                            I am currently a 3rd year Diploma in Information Technology student at Eastwoods College of Science and Technology. <br>
+                            I am an aspiring Web Devopler and currently practicing a Full stack website development.
+                        </p>
                         
-                        <h1><span><img src="img1.jpg" alt="Image" srcset="" class="rounded-circle shadow-4-strong"></span> Hello! I am <span>  <b>REYLOU RENCE N. MAQUI</b> </span> </h1>
-                    </div>
-                    <div>
                         
+                        <hr>
                     </div>
-                    <p>Write a brief introduction about yourself, your skills, and your experience.</p>
+                </section>
+
+                 <!--About-->
+                <section id="about" class="section"><br>
+                    <div class="section-header">
+                        <h2>About me</h2>
+                        <p>
+                            Hello! I am Reylou Rence N. Maqui <br>
+                            I am currently a 3rd year Diploma in Information Technology student at Eastwoods College of Science and Technology. <br>
+                            I am an aspiring Web Devopler and currently practicing a Full stack website development.
+                        </p>
+                        <br>
+                      <p>
+                        I am currently honing my skills in:
+                      </p>
+                       <h4>Front-end</h4>
+                       <div class="d-flex justify-content-center">
+                       
+                            <div>
+                                <i class='bx bxl-html5' id="skills"></i>
+                            </div>
+                            <div>
+                                <i class='bx bxs-file-css'id="skills"></i>
+                            </div>
+                            <div>
+                                <i class='bx bxl-javascript' id="skills"></i>
+                            </div>
+                        </div>
+                        <br>
+                        <h4>Back-end</h4>
+                       <div class="d-flex justify-content-center">
+                       
+                            <div>
+                                <i class='bx bxl-php'  id="skills"></i>
+                            </div>
+                            <div>
+                                <i class=''id="skills">MySQL</i>
+                            </div>
+                           
+                        </div>
+                    
+                        
+                        <hr>
+                    </div>
                 </section>
 
 
 
-                <!--ABOUT-->
-                <section id="about" class="section">
+                <!--Project-->
+                <section id="project" class="section"><br>
                     <div class="section-header">
-                        <h2>About Me</h2>
+                        <h2>Projects</h2>
+                    
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <h4>Procurement Sytem for ATI</h4>
+                                <img class="d-block w-100" src="img/proc.png" alt="First slide" id="sliderr">
+                              </div>
+                              <div class="carousel-item">
+                                <h4>Sales Management System for Puhon Kappi</h4>
+                                <img class="d-block w-100" src="img/puhon.png" alt="Second slide" id="sliderr">
+                              </div>
+                
+                            </div>
+
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only"></span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only"></span>
+                            </a>
+                          </div>
+                           
+                        </div>
+
+                        <hr>
                     </div>
-                    <p>Write a brief introduction about yourself, your skills, and your experience.</p>
                 </section>
 
 
 
 
                   <!--Contact-->
-                <section id="contact" class="section">
-                    <div class="section-header">
-                        <h2>About Me</h2>
+                  <section id="contact" class="section">
+                    <div class="section-header"><br>
+                        <h2>
+                            Contact me through: <br><br>
+                        </h2>
+                         <div class="d-flex justify-content-around">
+                            <div>
+                                <a href="mailto:maquirence20gmail.com" id="socmed"><p class="text-muted"><i class='bx-fw bx bxs-envelope' ></i>maquirence20@gmail.com</p></a>
+                                <p class="text-muted" id="socmed"><i class='bx-fw bx bxs-phone' ></i>(+63) 906 462 9856</p>
+                            </div>
+                        </div>
+                        <br><br>
+                
+                        <br><br>
+                        <h5>You can also connect with me through:</h5>
+                        <div class="d-flex justify-content-around">
+                            <div>
+                                <a href="https://web.facebook.com/renzy.makie/" id="socmed"><p class="text-muted"><i class='bx-fw bx bxl-facebook-square'></i>Facebook</p></a>   
+
+                            </div>
+                            <div>
+                                <a href="https://instagram.com/_renccee?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" id="socmed"><p class="text-muted"><i class='bx-fw bx bxl-instagram-alt' ></i>Instagram</p></a> 
+
+                            </div>
+                            <div>
+                                <a href="https://www.threads.net/@_renccee" id="socmed"><p class="text-muted"><i class='bx-fw bx bx-link'></i>Threads</p></a> 
+
+                            </div>
+                            <div>
+                                <a href="https://github.com/rencemaqui" id="socmed"><p class="text-muted"><i class='bx-fw bx bxl-github' ></i>GitHub</p></a> 
+
+                            </div>
+                            <div>
+                                <a href="https://www.linkedin.com/in/reylourencemaqui" id="socmed"><p class="text-muted"><i class='bx-fw bx bxl-linkedin-square' ></i>LinkedIn</p></a> 
+
+                            </div>
+                        </div>
+                     
+                        <hr>
                     </div>
-                    <p>Write a brief introduction about yourself, your skills, and your experience.</p>
                 </section>
             </div>
      

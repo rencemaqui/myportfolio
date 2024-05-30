@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #727272;
 }
 nav {
     text-align: center;
@@ -26,6 +26,8 @@ nav a {
 }
 .section-header {
     margin-bottom: 40px;
+    justify-content: center;
+    text-align: center;
 }
 .portfolio-item {
     background-color: #fff;
@@ -41,6 +43,20 @@ nav a {
     margin-bottom: 10px;
 }
 img{
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
+    align: left; 
+    text-align:center;
+   
+}
+#socmed{
+    text-decoration: none;
+    font-size: xx-large;
+}
+#sliderr{
+   height: 400px;
+}
+#skills{
+    text-decoration: none;
+    font-size: 80px;
 }
